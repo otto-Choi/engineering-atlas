@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "id": "buycycle",
+    "is_example": false,
+    "name": "Buycycle",
+    "purpose": "ISA 계좌의 ETF 정기 매수를 자동화하는 개인용 프로그램. 현재 제품 요구사항과 실제 주문 연동 방식은 아직 저장소에 상세 정의되지 않음.",
+    "repository_url": "https://github.com/otto-Choi/Buycycle",
+    "visibility": "public",
+    "stack": [
+      "미정"
+    ],
+    "stage": "planning",
+    "documentation": [
+      {
+        "label": "프로젝트 개요 (현재 초안)",
+        "location": "README.md"
+      },
+      {
+        "label": "초기 설계 결정",
+        "location": "docs/decisions.md"
+      },
+      {
+        "label": "개발 작업 이력",
+        "location": "docs/log.md"
+      }
+    ]
+  }
+]
