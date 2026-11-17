@@ -1,0 +1,34 @@
+[
+  {
+    "id": "demo-module-boundary",
+    "is_example": true,
+    "title": "예시: 계산과 입출력 분리 (가상)",
+    "date": "2026-11-17",
+    "concept_ids": [
+      "prog-values",
+      "prog-functions",
+      "prog-modules",
+      "git-commits",
+      "test-unit",
+      "design-cohesion"
+    ],
+    "document": "examples/cases/demo-module-boundary.md",
+    "references": [
+      {
+        "project_id": "demo-pricing",
+        "commit_sha": "0000000000000000000000000000000000000000",
+        "pr_number": null,
+        "files": [
+          "pricing.py",
+          "test_pricing.py"
+        ]
+      }
+    ],
+    "validation": {
+      "status": "passed",
+      "method": "가상: python -m unittest -v, Python 3.12; 일반/0/음수 입력",
+      "result": "가상: 3개 테스트 통과라는 예시 값. 실제 실행 결과 아님"
+    },
+    "public_safe": true
+  }
+]

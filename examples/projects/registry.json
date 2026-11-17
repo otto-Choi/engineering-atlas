@@ -1,0 +1,20 @@
+[
+  {
+    "id": "demo-pricing",
+    "is_example": true,
+    "name": "예시: 가격 계산 연습 제품 (가상)",
+    "purpose": "모듈 분리 학습의 연결 형식 시연; 실제 제품 아님",
+    "repository_url": "https://github.com/otto-Choi/engineering-atlas",
+    "visibility": "public",
+    "stack": [
+      "Python"
+    ],
+    "stage": "development",
+    "documentation": [
+      {
+        "label": "가상 제품 README 위치 (실재 주장 없음)",
+        "location": "README.md"
+      }
+    ]
+  }
+]

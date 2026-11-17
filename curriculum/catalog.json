@@ -1,0 +1,1781 @@
+{
+  "areas": [
+    {
+      "id": "programming",
+      "name": "프로그래밍 기초와 Python"
+    },
+    {
+      "id": "algorithms",
+      "name": "자료구조와 알고리즘"
+    },
+    {
+      "id": "systems",
+      "name": "컴퓨터 구조와 운영체제"
+    },
+    {
+      "id": "workflow",
+      "name": "Git과 개발 워크플로"
+    },
+    {
+      "id": "debugging",
+      "name": "디버깅과 오류 분석"
+    },
+    {
+      "id": "design",
+      "name": "소프트웨어 설계 원칙"
+    },
+    {
+      "id": "paradigms",
+      "name": "객체지향과 함수형 프로그래밍"
+    },
+    {
+      "id": "architecture",
+      "name": "소프트웨어 아키텍처"
+    },
+    {
+      "id": "web",
+      "name": "웹·HTTP·API"
+    },
+    {
+      "id": "data",
+      "name": "데이터베이스와 데이터 모델링"
+    },
+    {
+      "id": "testing",
+      "name": "테스트와 소프트웨어 품질"
+    },
+    {
+      "id": "security",
+      "name": "보안과 데이터 무결성"
+    },
+    {
+      "id": "delivery",
+      "name": "CI/CD와 배포"
+    },
+    {
+      "id": "operations",
+      "name": "운영과 신뢰성"
+    },
+    {
+      "id": "performance",
+      "name": "성능과 확장성"
+    },
+    {
+      "id": "ai",
+      "name": "AI·LLM·에이전트 엔지니어링"
+    },
+    {
+      "id": "automation",
+      "name": "AI 개발 자동화·하네스·평가"
+    },
+    {
+      "id": "communication",
+      "name": "기술적 의사결정과 커뮤니케이션"
+    }
+  ],
+  "sources": [
+    {
+      "id": "python",
+      "title": "Python Tutorial",
+      "url": "https://docs.python.org/3/tutorial/"
+    },
+    {
+      "id": "git",
+      "title": "Pro Git (공식 원문 저장소)",
+      "url": "https://github.com/progit/progit2"
+    },
+    {
+      "id": "http",
+      "title": "MDN HTTP",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP"
+    },
+    {
+      "id": "sql",
+      "title": "PostgreSQL Tutorial",
+      "url": "https://www.postgresql.org/docs/current/tutorial.html"
+    },
+    {
+      "id": "ci",
+      "title": "GitHub Actions",
+      "url": "https://docs.github.com/en/actions"
+    },
+    {
+      "id": "security",
+      "title": "OWASP Top 10",
+      "url": "https://owasp.org/www-project-top-ten/"
+    },
+    {
+      "id": "sre",
+      "title": "Site Reliability Engineering",
+      "url": "https://sre.google/sre-book/table-of-contents/"
+    },
+    {
+      "id": "otel",
+      "title": "OpenTelemetry Documentation",
+      "url": "https://opentelemetry.io/docs/"
+    },
+    {
+      "id": "test",
+      "title": "unittest",
+      "url": "https://docs.python.org/3/library/unittest.html"
+    },
+    {
+      "id": "async",
+      "title": "asyncio",
+      "url": "https://docs.python.org/3/library/asyncio.html"
+    },
+    {
+      "id": "refactor",
+      "title": "Refactoring Catalog",
+      "url": "https://refactoring.com/catalog/"
+    },
+    {
+      "id": "pyramid",
+      "title": "The Practical Test Pyramid",
+      "url": "https://martinfowler.com/articles/practical-test-pyramid.html"
+    },
+    {
+      "id": "functional",
+      "title": "Functional Programming HOWTO",
+      "url": "https://docs.python.org/3/howto/functional.html"
+    },
+    {
+      "id": "cs",
+      "title": "CS50x",
+      "url": "https://cs50.harvard.edu/x/"
+    },
+    {
+      "id": "profile",
+      "title": "Python Profilers",
+      "url": "https://docs.python.org/3/library/profile.html"
+    },
+    {
+      "id": "ai",
+      "title": "OpenAI API Documentation (모델·도구·평가 참고)",
+      "url": "https://developers.openai.com/api/docs/"
+    },
+    {
+      "id": "engineering-review",
+      "title": "Google Engineering Practices: Code Review",
+      "url": "https://google.github.io/eng-practices/review/"
+    },
+    {
+      "id": "architecture",
+      "title": "Microsoft Architecture Guide (원칙·스타일·트레이드오프)",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/guide/"
+    },
+    {
+      "id": "requirements",
+      "title": "NASA Systems Engineering Handbook (요구사항·검증 참고)",
+      "url": "https://www.nasa.gov/reference/systems-engineering-handbook/"
+    }
+  ],
+  "concepts": [
+    {
+      "id": "prog-values",
+      "name_ko": "변수와 자료형",
+      "name_en": "Variables and Types",
+      "area": "programming",
+      "summary": "이름이 값과 연결되는 방식과 값의 종류를 다룬다.",
+      "prerequisites": [],
+      "related": [
+        "prog-control",
+        "prog-collections",
+        "prog-functions"
+      ],
+      "objectives": [
+        "문자열과 숫자의 연산 차이를 설명한다."
+      ],
+      "applications": [
+        "입력값 변환 오류 해석"
+      ],
+      "stage": 1,
+      "references": [
+        "python"
+      ]
+    },
+    {
+      "id": "prog-control",
+      "name_ko": "조건과 반복",
+      "name_en": "Control Flow",
+      "area": "programming",
+      "summary": "조건에 따라 분기하거나 같은 절차를 반복한다.",
+      "prerequisites": [
+        "prog-values"
+      ],
+      "related": [
+        "prog-collections",
+        "prog-functions",
+        "algo-complexity"
+      ],
+      "objectives": [
+        "분기 조건과 반복 종료 조건을 추적한다."
+      ],
+      "applications": [
+        "데이터 필터링"
+      ],
+      "stage": 1,
+      "references": [
+        "python"
+      ]
+    },
+    {
+      "id": "prog-collections",
+      "name_ko": "기본 컬렉션",
+      "name_en": "Collections",
+      "area": "programming",
+      "summary": "여러 값을 리스트·딕셔너리·집합으로 묶는다.",
+      "prerequisites": [
+        "prog-values",
+        "prog-control"
+      ],
+      "related": [
+        "algo-complexity",
+        "algo-structures",
+        "paradigm-functional"
+      ],
+      "objectives": [
+        "조회와 갱신에 적절한 컬렉션을 고른다."
+      ],
+      "applications": [
+        "사용자별 상태 관리"
+      ],
+      "stage": 1,
+      "references": [
+        "python"
+      ]
+    },
+    {
+      "id": "prog-functions",
+      "name_ko": "함수",
+      "name_en": "Functions",
+      "area": "programming",
+      "summary": "입력과 출력을 가진 재사용 가능한 동작 단위를 정의한다.",
+      "prerequisites": [
+        "prog-values",
+        "prog-control"
+      ],
+      "related": [
+        "prog-modules",
+        "prog-errors",
+        "algo-search"
+      ],
+      "objectives": [
+        "인자·반환값·지역 변수의 흐름을 설명한다."
+      ],
+      "applications": [
+        "가격 계산 분리"
+      ],
+      "stage": 1,
+      "references": [
+        "python"
+      ]
+    },
+    {
+      "id": "prog-modules",
+      "name_ko": "모듈",
+      "name_en": "Modules",
+      "area": "programming",
+      "summary": "코드를 파일 단위로 나누고 공개 이름을 가져온다.",
+      "prerequisites": [
+        "prog-functions"
+      ],
+      "related": [
+        "prog-errors",
+        "design-cohesion",
+        "design-interfaces"
+      ],
+      "objectives": [
+        "import와 모듈 경계를 설명한다."
+      ],
+      "applications": [
+        "계산과 파일 입출력 분리"
+      ],
+      "stage": 1,
+      "references": [
+        "python"
+      ]
+    },
+    {
+      "id": "prog-errors",
+      "name_ko": "예외와 자원 관리",
+      "name_en": "Exceptions and Resource Management",
+      "area": "programming",
+      "summary": "실패를 예외로 전달하고 파일 등 자원의 수명을 관리한다.",
+      "prerequisites": [
+        "prog-functions",
+        "prog-modules"
+      ],
+      "related": [
+        "sys-io",
+        "debug-trace",
+        "web-api"
+      ],
+      "objectives": [
+        "복구 가능한 실패와 프로그래밍 오류를 구별한다."
+      ],
+      "applications": [
+        "파일 읽기 실패 처리"
+      ],
+      "stage": 1,
+      "references": [
+        "python"
+      ]
+    },
+    {
+      "id": "algo-complexity",
+      "name_ko": "시간·공간 복잡도",
+      "name_en": "Time and Space Complexity",
+      "area": "algorithms",
+      "summary": "입력 크기에 따른 계산량과 메모리 증가를 비교한다.",
+      "prerequisites": [
+        "prog-control",
+        "prog-collections"
+      ],
+      "related": [
+        "algo-structures",
+        "algo-search",
+        "perf-measure"
+      ],
+      "objectives": [
+        "상수·선형·제곱 증가를 구별한다."
+      ],
+      "applications": [
+        "중첩 루프 검토"
+      ],
+      "stage": 2,
+      "references": [
+        "cs"
+      ]
+    },
+    {
+      "id": "algo-structures",
+      "name_ko": "스택·큐·해시 테이블",
+      "name_en": "Stacks Queues and Hash Tables",
+      "area": "algorithms",
+      "summary": "삽입·삭제·조회 방식에 따라 자료구조를 선택한다.",
+      "prerequisites": [
+        "prog-collections",
+        "algo-complexity"
+      ],
+      "related": [
+        "algo-graphs"
+      ],
+      "objectives": [
+        "접근 패턴과 연산 비용을 비교한다."
+      ],
+      "applications": [
+        "작업 대기열 설계"
+      ],
+      "stage": 2,
+      "references": [
+        "cs"
+      ]
+    },
+    {
+      "id": "algo-search",
+      "name_ko": "탐색과 정렬",
+      "name_en": "Searching and Sorting",
+      "area": "algorithms",
+      "summary": "값을 찾거나 순서를 정하는 알고리즘과 전제조건을 다룬다.",
+      "prerequisites": [
+        "algo-complexity",
+        "prog-functions"
+      ],
+      "related": [],
+      "objectives": [
+        "이진 탐색의 정렬 전제와 비용을 설명한다."
+      ],
+      "applications": [
+        "검색 로직 검증"
+      ],
+      "stage": 2,
+      "references": [
+        "cs"
+      ]
+    },
+    {
+      "id": "algo-graphs",
+      "name_ko": "트리·그래프와 순회",
+      "name_en": "Trees Graphs and Traversal",
+      "area": "algorithms",
+      "summary": "관계망을 노드와 간선으로 표현하고 방문한다.",
+      "prerequisites": [
+        "algo-structures",
+        "prog-functions"
+      ],
+      "related": [],
+      "objectives": [
+        "방문 상태와 순환을 설명한다."
+      ],
+      "applications": [
+        "선수 지식 DAG 검증"
+      ],
+      "stage": 2,
+      "references": [
+        "cs"
+      ]
+    },
+    {
+      "id": "sys-memory",
+      "name_ko": "컴퓨터 실행과 메모리",
+      "name_en": "Execution and Memory",
+      "area": "systems",
+      "summary": "프로그램이 CPU에서 실행되고 메모리에 상태를 보관하는 원리를 다룬다.",
+      "prerequisites": [
+        "prog-values"
+      ],
+      "related": [
+        "sys-processes"
+      ],
+      "objectives": [
+        "값·참조·저장 장치의 차이를 설명한다."
+      ],
+      "applications": [
+        "메모리 사용 이해"
+      ],
+      "stage": 1,
+      "references": [
+        "cs"
+      ]
+    },
+    {
+      "id": "sys-processes",
+      "name_ko": "프로세스와 스레드",
+      "name_en": "Processes and Threads",
+      "area": "systems",
+      "summary": "운영체제의 실행 단위와 공유 자원을 다룬다.",
+      "prerequisites": [
+        "sys-memory",
+        "prog-functions"
+      ],
+      "related": [
+        "sys-io",
+        "sys-concurrency"
+      ],
+      "objectives": [
+        "격리와 공유의 차이를 설명한다."
+      ],
+      "applications": [
+        "서버 워커 구성 이해"
+      ],
+      "stage": 2,
+      "references": [
+        "cs"
+      ]
+    },
+    {
+      "id": "sys-io",
+      "name_ko": "파일과 네트워크 I/O",
+      "name_en": "File and Network IO",
+      "area": "systems",
+      "summary": "프로그램 외부의 데이터와 통신하는 비용과 실패를 다룬다.",
+      "prerequisites": [
+        "prog-errors",
+        "sys-processes"
+      ],
+      "related": [
+        "sys-concurrency",
+        "web-http"
+      ],
+      "objectives": [
+        "I/O 대기와 계산을 구별한다."
+      ],
+      "applications": [
+        "파일 저장과 API 호출 분석"
+      ],
+      "stage": 2,
+      "references": [
+        "cs"
+      ]
+    },
+    {
+      "id": "sys-concurrency",
+      "name_ko": "동시성과 경쟁 상태",
+      "name_en": "Concurrency and Race Conditions",
+      "area": "systems",
+      "summary": "작업의 실행이 겹칠 때 공유 상태의 일관성을 다룬다.",
+      "prerequisites": [
+        "sys-processes",
+        "sys-io"
+      ],
+      "related": [
+        "arch-events",
+        "data-transactions",
+        "perf-scale"
+      ],
+      "objectives": [
+        "경쟁 상태와 동기화 필요성을 설명한다."
+      ],
+      "applications": [
+        "중복 재고 차감 방지"
+      ],
+      "stage": 3,
+      "references": [
+        "async"
+      ]
+    },
+    {
+      "id": "git-commits",
+      "name_ko": "Git 커밋",
+      "name_en": "Git Commits",
+      "area": "workflow",
+      "summary": "변경 상태를 식별 가능한 이력으로 저장한다.",
+      "prerequisites": [],
+      "related": [
+        "git-branches",
+        "data-migrations",
+        "sec-secrets"
+      ],
+      "objectives": [
+        "작업 트리·스테이징·커밋을 구별한다."
+      ],
+      "applications": [
+        "학습 사례의 코드 상태 고정"
+      ],
+      "stage": 1,
+      "references": [
+        "git"
+      ]
+    },
+    {
+      "id": "git-branches",
+      "name_ko": "브랜치와 병합",
+      "name_en": "Branches and Merging",
+      "area": "workflow",
+      "summary": "독립적인 변경 흐름을 만들고 합친다.",
+      "prerequisites": [
+        "git-commits"
+      ],
+      "related": [
+        "git-review"
+      ],
+      "objectives": [
+        "충돌 원인과 해결 절차를 설명한다."
+      ],
+      "applications": [
+        "기능 작업 분리"
+      ],
+      "stage": 1,
+      "references": [
+        "git"
+      ]
+    },
+    {
+      "id": "git-review",
+      "name_ko": "PR과 변경 검토",
+      "name_en": "Pull Requests and Review",
+      "area": "workflow",
+      "summary": "변경 목적·위험·검증 근거를 다른 사람과 검토한다.",
+      "prerequisites": [
+        "git-branches",
+        "test-unit"
+      ],
+      "related": [
+        "test-quality",
+        "ship-ci",
+        "auto-contracts"
+      ],
+      "objectives": [
+        "작은 변경과 재현 가능한 검증을 제시한다."
+      ],
+      "applications": [
+        "AI 코드 PR 검토"
+      ],
+      "stage": 2,
+      "references": [
+        "engineering-review"
+      ]
+    },
+    {
+      "id": "debug-trace",
+      "name_ko": "오류 메시지와 스택 추적",
+      "name_en": "Errors and Stack Traces",
+      "area": "debugging",
+      "summary": "오류 발생 위치와 호출 경로를 근거로 원인을 좁힌다.",
+      "prerequisites": [
+        "prog-errors"
+      ],
+      "related": [
+        "debug-reproduce",
+        "debug-tools"
+      ],
+      "objectives": [
+        "증상과 원인 가설을 구별한다."
+      ],
+      "applications": [
+        "예외 원인 분석"
+      ],
+      "stage": 1,
+      "references": [
+        "python"
+      ]
+    },
+    {
+      "id": "debug-reproduce",
+      "name_ko": "재현·가설·최소 사례",
+      "name_en": "Reproduction and Hypothesis",
+      "area": "debugging",
+      "summary": "실패 조건을 고정하고 가설을 실험으로 확인한다.",
+      "prerequisites": [
+        "debug-trace",
+        "test-unit"
+      ],
+      "related": [
+        "ops-observability",
+        "perf-measure"
+      ],
+      "objectives": [
+        "최소 재현과 회귀 검증을 구성한다."
+      ],
+      "applications": [
+        "간헐적 입력 오류 해결"
+      ],
+      "stage": 2,
+      "references": [
+        "test"
+      ]
+    },
+    {
+      "id": "debug-tools",
+      "name_ko": "디버거와 관측",
+      "name_en": "Debuggers and Inspection",
+      "area": "debugging",
+      "summary": "중단점과 실행 상태를 관찰해 가설을 확인한다.",
+      "prerequisites": [
+        "debug-trace",
+        "prog-functions"
+      ],
+      "related": [],
+      "objectives": [
+        "변수와 호출 스택으로 실행 흐름을 추적한다."
+      ],
+      "applications": [
+        "예상과 다른 분기 확인"
+      ],
+      "stage": 2,
+      "references": [
+        "python"
+      ]
+    },
+    {
+      "id": "design-cohesion",
+      "name_ko": "응집도와 결합도",
+      "name_en": "Cohesion and Coupling",
+      "area": "design",
+      "summary": "함께 바뀌는 책임을 모으고 불필요한 의존을 줄인다.",
+      "prerequisites": [
+        "prog-modules"
+      ],
+      "related": [
+        "design-refactoring",
+        "arch-boundaries",
+        "comm-decisions"
+      ],
+      "objectives": [
+        "모듈 경계 변경의 이익과 비용을 비교한다."
+      ],
+      "applications": [
+        "입출력과 계산 분리"
+      ],
+      "stage": 2,
+      "references": [
+        "refactor"
+      ]
+    },
+    {
+      "id": "design-interfaces",
+      "name_ko": "의존성과 인터페이스",
+      "name_en": "Dependencies and Interfaces",
+      "area": "design",
+      "summary": "구현 세부사항과 사용자가 의존하는 계약을 분리한다.",
+      "prerequisites": [
+        "prog-modules",
+        "prog-functions"
+      ],
+      "related": [
+        "paradigm-composition",
+        "arch-boundaries",
+        "web-api"
+      ],
+      "objectives": [
+        "의존 방향과 계약 위반을 설명한다."
+      ],
+      "applications": [
+        "외부 서비스 대체"
+      ],
+      "stage": 2,
+      "references": [
+        "architecture"
+      ]
+    },
+    {
+      "id": "design-refactoring",
+      "name_ko": "리팩터링과 단순성",
+      "name_en": "Refactoring and Simplicity",
+      "area": "design",
+      "summary": "외부 동작을 유지하며 내부 구조를 바꾼다.",
+      "prerequisites": [
+        "design-cohesion",
+        "test-unit"
+      ],
+      "related": [],
+      "objectives": [
+        "필요한 추상화와 과잉 설계를 구별한다."
+      ],
+      "applications": [
+        "중복 로직 정리"
+      ],
+      "stage": 2,
+      "references": [
+        "refactor"
+      ]
+    },
+    {
+      "id": "paradigm-objects",
+      "name_ko": "객체와 책임",
+      "name_en": "Objects and Responsibilities",
+      "area": "paradigms",
+      "summary": "상태와 동작을 객체의 책임으로 묶는다.",
+      "prerequisites": [
+        "prog-functions",
+        "prog-modules"
+      ],
+      "related": [
+        "paradigm-composition"
+      ],
+      "objectives": [
+        "캡슐화와 구성의 장점을 설명한다."
+      ],
+      "applications": [
+        "도메인 규칙 표현"
+      ],
+      "stage": 2,
+      "references": [
+        "python"
+      ]
+    },
+    {
+      "id": "paradigm-functional",
+      "name_ko": "순수 함수와 불변성",
+      "name_en": "Pure Functions and Immutability",
+      "area": "paradigms",
+      "summary": "입력에 따른 출력과 부수효과를 분리한다.",
+      "prerequisites": [
+        "prog-functions",
+        "prog-collections"
+      ],
+      "related": [],
+      "objectives": [
+        "변경 가능한 상태가 테스트에 미치는 영향을 설명한다."
+      ],
+      "applications": [
+        "계산 로직 테스트 단순화"
+      ],
+      "stage": 2,
+      "references": [
+        "functional"
+      ]
+    },
+    {
+      "id": "paradigm-composition",
+      "name_ko": "상속과 구성",
+      "name_en": "Inheritance and Composition",
+      "area": "paradigms",
+      "summary": "재사용을 위해 타입 계층이나 객체 조합을 선택한다.",
+      "prerequisites": [
+        "paradigm-objects",
+        "design-interfaces"
+      ],
+      "related": [],
+      "objectives": [
+        "교체 가능성과 계층 복잡성을 비교한다."
+      ],
+      "applications": [
+        "정책 객체 조합"
+      ],
+      "stage": 2,
+      "references": [
+        "python"
+      ]
+    },
+    {
+      "id": "arch-boundaries",
+      "name_ko": "계층과 경계",
+      "name_en": "Layers and Boundaries",
+      "area": "architecture",
+      "summary": "변경 원인과 의존 방향에 따라 시스템을 나눈다.",
+      "prerequisites": [
+        "design-cohesion",
+        "design-interfaces"
+      ],
+      "related": [
+        "arch-modularity"
+      ],
+      "objectives": [
+        "UI·업무 규칙·저장소의 경계를 설명한다."
+      ],
+      "applications": [
+        "서비스 구조 검토"
+      ],
+      "stage": 3,
+      "references": [
+        "architecture"
+      ]
+    },
+    {
+      "id": "arch-modularity",
+      "name_ko": "모놀리스와 서비스 분리",
+      "name_en": "Monoliths and Services",
+      "area": "architecture",
+      "summary": "배포 단위와 코드 모듈 경계의 비용을 비교한다.",
+      "prerequisites": [
+        "arch-boundaries",
+        "web-http"
+      ],
+      "related": [],
+      "objectives": [
+        "운영 비용을 포함해 분리 필요성을 판단한다."
+      ],
+      "applications": [
+        "초기 제품 구조 선택"
+      ],
+      "stage": 3,
+      "references": [
+        "architecture"
+      ]
+    },
+    {
+      "id": "arch-events",
+      "name_ko": "동기 호출과 이벤트",
+      "name_en": "Synchronous Calls and Events",
+      "area": "architecture",
+      "summary": "직접 응답과 비동기 전달 사이의 일관성·실패 처리를 다룬다.",
+      "prerequisites": [
+        "web-api",
+        "sys-concurrency"
+      ],
+      "related": [],
+      "objectives": [
+        "중복 전달과 지연의 영향을 설명한다."
+      ],
+      "applications": [
+        "백그라운드 알림 설계"
+      ],
+      "stage": 3,
+      "references": [
+        "architecture"
+      ]
+    },
+    {
+      "id": "web-http",
+      "name_ko": "HTTP와 클라이언트·서버",
+      "name_en": "HTTP and Client Server",
+      "area": "web",
+      "summary": "요청·응답·메서드·상태 코드로 통신한다.",
+      "prerequisites": [
+        "sys-io"
+      ],
+      "related": [
+        "arch-modularity",
+        "web-browser",
+        "web-api"
+      ],
+      "objectives": [
+        "한 요청의 경로와 응답 의미를 설명한다."
+      ],
+      "applications": [
+        "브라우저 네트워크 분석"
+      ],
+      "stage": 2,
+      "references": [
+        "http"
+      ]
+    },
+    {
+      "id": "web-browser",
+      "name_ko": "브라우저와 웹 기초",
+      "name_en": "Browser and Web Basics",
+      "area": "web",
+      "summary": "HTML·CSS·JavaScript와 브라우저 실행 환경을 이해한다.",
+      "prerequisites": [
+        "web-http"
+      ],
+      "related": [],
+      "objectives": [
+        "화면 렌더링과 서버 요청을 구별한다."
+      ],
+      "applications": [
+        "폼 제출 흐름 추적"
+      ],
+      "stage": 2,
+      "references": [
+        "http"
+      ]
+    },
+    {
+      "id": "web-api",
+      "name_ko": "API 계약과 입력 검증",
+      "name_en": "API Contracts and Validation",
+      "area": "web",
+      "summary": "클라이언트와 서버 사이의 데이터·오류 계약을 정의한다.",
+      "prerequisites": [
+        "web-http",
+        "design-interfaces",
+        "prog-errors"
+      ],
+      "related": [
+        "arch-events",
+        "test-integration",
+        "sec-auth"
+      ],
+      "objectives": [
+        "잘못된 입력과 호환성 변경을 검토한다."
+      ],
+      "applications": [
+        "API 스키마 변경 검토"
+      ],
+      "stage": 2,
+      "references": [
+        "http"
+      ]
+    },
+    {
+      "id": "web-state",
+      "name_ko": "쿠키·세션·상태",
+      "name_en": "Cookies Sessions and State",
+      "area": "web",
+      "summary": "요청 사이의 사용자 상태와 수명을 관리한다.",
+      "prerequisites": [
+        "web-http"
+      ],
+      "related": [
+        "sec-auth"
+      ],
+      "objectives": [
+        "쿠키와 서버 세션의 역할을 구별한다."
+      ],
+      "applications": [
+        "로그인 상태 흐름 분석"
+      ],
+      "stage": 3,
+      "references": [
+        "http"
+      ]
+    },
+    {
+      "id": "data-relations",
+      "name_ko": "관계형 모델과 키",
+      "name_en": "Relational Models and Keys",
+      "area": "data",
+      "summary": "테이블·키·관계로 데이터의 의미와 연결을 표현한다.",
+      "prerequisites": [
+        "prog-collections"
+      ],
+      "related": [
+        "data-sql"
+      ],
+      "objectives": [
+        "기본키와 외래키를 구별한다."
+      ],
+      "applications": [
+        "사용자와 주문 모델링"
+      ],
+      "stage": 2,
+      "references": [
+        "sql"
+      ]
+    },
+    {
+      "id": "data-sql",
+      "name_ko": "SQL과 질의",
+      "name_en": "SQL and Queries",
+      "area": "data",
+      "summary": "선택·결합·집계와 데이터 변경을 선언한다.",
+      "prerequisites": [
+        "data-relations"
+      ],
+      "related": [
+        "data-transactions",
+        "sec-input",
+        "perf-index"
+      ],
+      "objectives": [
+        "JOIN에 따른 행 수와 NULL을 해석한다."
+      ],
+      "applications": [
+        "집계 API 검토"
+      ],
+      "stage": 2,
+      "references": [
+        "sql"
+      ]
+    },
+    {
+      "id": "data-transactions",
+      "name_ko": "트랜잭션과 제약조건",
+      "name_en": "Transactions and Constraints",
+      "area": "data",
+      "summary": "여러 변경의 원자성과 데이터 규칙을 보장한다.",
+      "prerequisites": [
+        "data-sql",
+        "sys-concurrency"
+      ],
+      "related": [
+        "data-migrations",
+        "sec-integrity",
+        "perf-cache"
+      ],
+      "objectives": [
+        "제약조건과 애플리케이션 검증의 역할을 비교한다."
+      ],
+      "applications": [
+        "중복 결제 방지"
+      ],
+      "stage": 3,
+      "references": [
+        "sql"
+      ]
+    },
+    {
+      "id": "data-migrations",
+      "name_ko": "스키마 변경과 마이그레이션",
+      "name_en": "Schema Migrations",
+      "area": "data",
+      "summary": "기존 데이터를 보존하면서 스키마를 진화시킨다.",
+      "prerequisites": [
+        "data-transactions",
+        "git-commits"
+      ],
+      "related": [
+        "ship-release"
+      ],
+      "objectives": [
+        "호환성·백업·복구 절차를 계획한다."
+      ],
+      "applications": [
+        "필수 컬럼 추가"
+      ],
+      "stage": 3,
+      "references": [
+        "sql"
+      ]
+    },
+    {
+      "id": "test-unit",
+      "name_ko": "단위 테스트",
+      "name_en": "Unit Testing",
+      "area": "testing",
+      "summary": "작은 동작 단위의 기대 결과를 실행 가능한 검사로 표현한다.",
+      "prerequisites": [
+        "prog-functions"
+      ],
+      "related": [
+        "git-review",
+        "debug-reproduce",
+        "design-refactoring"
+      ],
+      "objectives": [
+        "정상·경계·실패 입력을 구분해 검사한다."
+      ],
+      "applications": [
+        "가격 계산 회귀 방지"
+      ],
+      "stage": 1,
+      "references": [
+        "test"
+      ]
+    },
+    {
+      "id": "test-integration",
+      "name_ko": "통합·종단간 테스트",
+      "name_en": "Integration and End to End Testing",
+      "area": "testing",
+      "summary": "모듈 연결과 사용자 흐름에서 계약을 검증한다.",
+      "prerequisites": [
+        "test-unit",
+        "web-api"
+      ],
+      "related": [
+        "auto-evals"
+      ],
+      "objectives": [
+        "단위 검사로 찾지 못하는 연결 오류를 설명한다."
+      ],
+      "applications": [
+        "API부터 저장까지 검증"
+      ],
+      "stage": 2,
+      "references": [
+        "pyramid"
+      ]
+    },
+    {
+      "id": "test-doubles",
+      "name_ko": "테스트 대역과 격리",
+      "name_en": "Test Doubles and Isolation",
+      "area": "testing",
+      "summary": "제어하기 어려운 의존을 대체해 특정 동작을 검증한다.",
+      "prerequisites": [
+        "test-unit",
+        "design-interfaces"
+      ],
+      "related": [],
+      "objectives": [
+        "과도한 모킹과 실제 계약 검증의 차이를 설명한다."
+      ],
+      "applications": [
+        "외부 API 실패 재현"
+      ],
+      "stage": 2,
+      "references": [
+        "test"
+      ]
+    },
+    {
+      "id": "test-quality",
+      "name_ko": "정적 검사와 품질 기준",
+      "name_en": "Static Checks and Quality Gates",
+      "area": "testing",
+      "summary": "실행 테스트와 별개로 타입·스타일·검토 기준을 적용한다.",
+      "prerequisites": [
+        "prog-modules",
+        "test-unit",
+        "git-review"
+      ],
+      "related": [
+        "ship-ci"
+      ],
+      "objectives": [
+        "검사 통과가 정확성 보장의 전부가 아님을 설명한다."
+      ],
+      "applications": [
+        "AI 변경 승인 기준 작성"
+      ],
+      "stage": 2,
+      "references": [
+        "engineering-review"
+      ]
+    },
+    {
+      "id": "sec-auth",
+      "name_ko": "인증과 인가",
+      "name_en": "Authentication and Authorization",
+      "area": "security",
+      "summary": "누구인지 확인하고 허용된 자원 접근을 판단한다.",
+      "prerequisites": [
+        "web-state",
+        "web-api"
+      ],
+      "related": [
+        "ai-tools"
+      ],
+      "objectives": [
+        "인증 성공과 권한 확인을 구별한다."
+      ],
+      "applications": [
+        "다른 사용자 데이터 접근 방지"
+      ],
+      "stage": 3,
+      "references": [
+        "security"
+      ]
+    },
+    {
+      "id": "sec-input",
+      "name_ko": "신뢰 경계와 안전한 입력",
+      "name_en": "Trust Boundaries and Safe Input",
+      "area": "security",
+      "summary": "외부 입력을 신뢰하지 않고 주입·노출 위험을 제한한다.",
+      "prerequisites": [
+        "web-api",
+        "data-sql"
+      ],
+      "related": [
+        "ai-safety"
+      ],
+      "objectives": [
+        "매개변수 질의와 출력 처리를 설명한다."
+      ],
+      "applications": [
+        "SQL 주입 방지"
+      ],
+      "stage": 2,
+      "references": [
+        "security"
+      ]
+    },
+    {
+      "id": "sec-secrets",
+      "name_ko": "비밀정보와 의존성 보안",
+      "name_en": "Secrets and Dependency Security",
+      "area": "security",
+      "summary": "자격증명과 공급망의 접근·갱신·노출을 관리한다.",
+      "prerequisites": [
+        "git-commits",
+        "prog-modules"
+      ],
+      "related": [
+        "ship-env"
+      ],
+      "objectives": [
+        "비밀정보 유출 시 폐기와 교체를 설명한다."
+      ],
+      "applications": [
+        "공개 저장소 점검"
+      ],
+      "stage": 2,
+      "references": [
+        "security"
+      ]
+    },
+    {
+      "id": "sec-integrity",
+      "name_ko": "멱등성과 데이터 무결성",
+      "name_en": "Idempotency and Data Integrity",
+      "area": "security",
+      "summary": "재시도와 중복 요청에서도 허용된 데이터 상태를 유지한다.",
+      "prerequisites": [
+        "data-transactions",
+        "web-api"
+      ],
+      "related": [
+        "ops-retries"
+      ],
+      "objectives": [
+        "중복 처리 방지의 범위를 설명한다."
+      ],
+      "applications": [
+        "결제 재시도 설계"
+      ],
+      "stage": 3,
+      "references": [
+        "sql"
+      ]
+    },
+    {
+      "id": "ship-ci",
+      "name_ko": "지속적 통합",
+      "name_en": "Continuous Integration",
+      "area": "delivery",
+      "summary": "변경마다 재현 가능한 자동 검사를 실행한다.",
+      "prerequisites": [
+        "git-review",
+        "test-quality"
+      ],
+      "related": [
+        "ship-release",
+        "auto-harness"
+      ],
+      "objectives": [
+        "실패한 검사의 의미와 재현 절차를 설명한다."
+      ],
+      "applications": [
+        "문서 참조 CI 구축"
+      ],
+      "stage": 2,
+      "references": [
+        "ci"
+      ]
+    },
+    {
+      "id": "ship-env",
+      "name_ko": "환경·설정·의존성",
+      "name_en": "Environments Configuration and Dependencies",
+      "area": "delivery",
+      "summary": "실행 환경과 설정을 명시해 재현성을 높인다.",
+      "prerequisites": [
+        "prog-modules",
+        "sec-secrets"
+      ],
+      "related": [
+        "ship-release",
+        "auto-harness"
+      ],
+      "objectives": [
+        "설정과 코드 및 비밀정보를 분리한다."
+      ],
+      "applications": [
+        "개발·운영 환경 차이 분석"
+      ],
+      "stage": 2,
+      "references": [
+        "ci"
+      ]
+    },
+    {
+      "id": "ship-release",
+      "name_ko": "배포·릴리스·롤백",
+      "name_en": "Deployment Releases and Rollbacks",
+      "area": "delivery",
+      "summary": "새 버전을 노출하고 실패 시 복구하는 절차를 설계한다.",
+      "prerequisites": [
+        "ship-ci",
+        "ship-env",
+        "data-migrations"
+      ],
+      "related": [
+        "ops-reliability"
+      ],
+      "objectives": [
+        "코드 롤백과 데이터 복원의 차이를 설명한다."
+      ],
+      "applications": [
+        "안전한 릴리스 계획"
+      ],
+      "stage": 3,
+      "references": [
+        "sre"
+      ]
+    },
+    {
+      "id": "ops-observability",
+      "name_ko": "로그·메트릭·트레이스",
+      "name_en": "Logs Metrics and Traces",
+      "area": "operations",
+      "summary": "시스템 상태를 외부 신호로 관찰한다.",
+      "prerequisites": [
+        "web-api",
+        "debug-reproduce"
+      ],
+      "related": [
+        "ops-reliability",
+        "ops-retries"
+      ],
+      "objectives": [
+        "요청 실패를 신호 사이에서 연결한다."
+      ],
+      "applications": [
+        "느린 요청 추적"
+      ],
+      "stage": 3,
+      "references": [
+        "otel"
+      ]
+    },
+    {
+      "id": "ops-reliability",
+      "name_ko": "SLO와 장애 대응",
+      "name_en": "SLOs and Incident Response",
+      "area": "operations",
+      "summary": "사용자 관점의 신뢰성 목표와 복구 절차를 정의한다.",
+      "prerequisites": [
+        "ops-observability",
+        "ship-release"
+      ],
+      "related": [
+        "perf-scale"
+      ],
+      "objectives": [
+        "증상·영향·복구·원인 분석을 구별한다."
+      ],
+      "applications": [
+        "장애 회고 작성"
+      ],
+      "stage": 3,
+      "references": [
+        "sre"
+      ]
+    },
+    {
+      "id": "ops-retries",
+      "name_ko": "시간 제한·재시도·복구",
+      "name_en": "Timeouts Retries and Recovery",
+      "area": "operations",
+      "summary": "부분 실패의 전파를 제한하고 재시도를 제어한다.",
+      "prerequisites": [
+        "sec-integrity",
+        "ops-observability"
+      ],
+      "related": [],
+      "objectives": [
+        "재시도 폭주와 백오프를 설명한다."
+      ],
+      "applications": [
+        "외부 API 지연 대응"
+      ],
+      "stage": 3,
+      "references": [
+        "sre"
+      ]
+    },
+    {
+      "id": "perf-measure",
+      "name_ko": "측정과 프로파일링",
+      "name_en": "Measurement and Profiling",
+      "area": "performance",
+      "summary": "재현 가능한 조건에서 병목과 비용을 측정한다.",
+      "prerequisites": [
+        "algo-complexity",
+        "debug-reproduce"
+      ],
+      "related": [
+        "perf-index",
+        "perf-cache",
+        "auto-evals"
+      ],
+      "objectives": [
+        "평균과 분포 및 측정 조건을 구별한다."
+      ],
+      "applications": [
+        "느린 함수 병목 확인"
+      ],
+      "stage": 3,
+      "references": [
+        "profile"
+      ]
+    },
+    {
+      "id": "perf-index",
+      "name_ko": "인덱스와 실행 계획",
+      "name_en": "Indexes and Query Plans",
+      "area": "performance",
+      "summary": "조회 비용을 줄이는 구조와 쓰기 비용을 비교한다.",
+      "prerequisites": [
+        "data-sql",
+        "perf-measure"
+      ],
+      "related": [],
+      "objectives": [
+        "인덱스 효과를 실행 계획으로 확인한다."
+      ],
+      "applications": [
+        "느린 조회 개선"
+      ],
+      "stage": 3,
+      "references": [
+        "sql"
+      ]
+    },
+    {
+      "id": "perf-cache",
+      "name_ko": "캐시와 무효화",
+      "name_en": "Caching and Invalidation",
+      "area": "performance",
+      "summary": "재사용으로 비용을 줄이면서 최신성과 일관성을 관리한다.",
+      "prerequisites": [
+        "web-http",
+        "data-transactions",
+        "perf-measure"
+      ],
+      "related": [
+        "perf-scale"
+      ],
+      "objectives": [
+        "TTL과 무효화의 실패 상황을 설명한다."
+      ],
+      "applications": [
+        "반복 조회 캐시 검토"
+      ],
+      "stage": 3,
+      "references": [
+        "http"
+      ]
+    },
+    {
+      "id": "perf-scale",
+      "name_ko": "확장성과 부하 제어",
+      "name_en": "Scaling and Load Control",
+      "area": "performance",
+      "summary": "부하 증가에 따라 자원·병목·한계를 조정한다.",
+      "prerequisites": [
+        "ops-reliability",
+        "perf-cache",
+        "sys-concurrency"
+      ],
+      "related": [],
+      "objectives": [
+        "수평 확장의 상태 공유 문제를 설명한다."
+      ],
+      "applications": [
+        "부하 시험과 용량 계획"
+      ],
+      "stage": 4,
+      "references": [
+        "sre"
+      ]
+    },
+    {
+      "id": "ai-models",
+      "name_ko": "LLM의 확률적 동작과 한계",
+      "name_en": "LLM Behavior and Limitations",
+      "area": "ai",
+      "summary": "모델 출력의 변동성과 지식·추론의 한계를 이해한다.",
+      "prerequisites": [
+        "prog-functions"
+      ],
+      "related": [
+        "ai-context",
+        "ai-retrieval",
+        "auto-evals"
+      ],
+      "objectives": [
+        "유창함과 검증된 사실을 구별한다."
+      ],
+      "applications": [
+        "AI 코드의 가정 확인"
+      ],
+      "stage": 2,
+      "references": [
+        "ai"
+      ]
+    },
+    {
+      "id": "ai-context",
+      "name_ko": "프롬프트와 컨텍스트",
+      "name_en": "Prompts and Context",
+      "area": "ai",
+      "summary": "목표·입력·제약·예시를 명시해 모델 작업 범위를 정한다.",
+      "prerequisites": [
+        "ai-models",
+        "design-interfaces"
+      ],
+      "related": [
+        "ai-tools",
+        "auto-contracts"
+      ],
+      "objectives": [
+        "누락된 맥락과 검증 가능한 요구사항을 찾는다."
+      ],
+      "applications": [
+        "코드 변경 요청 작성"
+      ],
+      "stage": 2,
+      "references": [
+        "ai"
+      ]
+    },
+    {
+      "id": "ai-tools",
+      "name_ko": "도구 호출과 에이전트",
+      "name_en": "Tool Calling and Agents",
+      "area": "ai",
+      "summary": "모델이 도구를 선택하는 실행 루프와 권한을 다룬다.",
+      "prerequisites": [
+        "ai-context",
+        "web-api",
+        "sec-auth"
+      ],
+      "related": [
+        "ai-safety",
+        "auto-harness"
+      ],
+      "objectives": [
+        "도구 결과 검증과 실행 한계를 설계한다."
+      ],
+      "applications": [
+        "파일 수정 도구 승인 경계 검토"
+      ],
+      "stage": 3,
+      "references": [
+        "ai"
+      ]
+    },
+    {
+      "id": "ai-retrieval",
+      "name_ko": "임베딩과 검색 기초",
+      "name_en": "Embeddings and Retrieval",
+      "area": "ai",
+      "summary": "유사도 검색으로 참고 정보를 선택하는 원리를 다룬다.",
+      "prerequisites": [
+        "ai-models",
+        "data-sql"
+      ],
+      "related": [],
+      "objectives": [
+        "검색 품질과 생성 품질을 구별한다."
+      ],
+      "applications": [
+        "검색 기반 답변의 근거 검토"
+      ],
+      "stage": 3,
+      "references": [
+        "ai"
+      ]
+    },
+    {
+      "id": "ai-safety",
+      "name_ko": "프롬프트 주입과 권한 경계",
+      "name_en": "Prompt Injection and Permissions",
+      "area": "ai",
+      "summary": "외부 자료의 지시가 도구 권한을 오용하지 않게 제한한다.",
+      "prerequisites": [
+        "ai-tools",
+        "sec-input"
+      ],
+      "related": [
+        "auto-human"
+      ],
+      "objectives": [
+        "데이터와 실행 지시의 경계를 설명한다."
+      ],
+      "applications": [
+        "에이전트 외부 문서 처리 검토"
+      ],
+      "stage": 3,
+      "references": [
+        "security"
+      ]
+    },
+    {
+      "id": "auto-contracts",
+      "name_ko": "AI 작업 계약과 변경 범위",
+      "name_en": "AI Task Contracts and Scope",
+      "area": "automation",
+      "summary": "요구사항·허용 변경·완료 기준을 작업에 명시한다.",
+      "prerequisites": [
+        "ai-context",
+        "git-review"
+      ],
+      "related": [
+        "auto-human"
+      ],
+      "objectives": [
+        "작업 범위와 검증 기준을 작성한다."
+      ],
+      "applications": [
+        "작은 단위로 AI 개발 지시"
+      ],
+      "stage": 2,
+      "references": [
+        "engineering-review"
+      ]
+    },
+    {
+      "id": "auto-harness",
+      "name_ko": "하네스와 실행 격리",
+      "name_en": "Harnesses and Execution Isolation",
+      "area": "automation",
+      "summary": "도구·상태·권한·검증을 묶는 실행 환경을 설계한다.",
+      "prerequisites": [
+        "ai-tools",
+        "ship-ci",
+        "ship-env"
+      ],
+      "related": [],
+      "objectives": [
+        "단순 스크립트와 별도 하네스의 비용을 비교한다."
+      ],
+      "applications": [
+        "AI 실행의 재현성과 제한 검토"
+      ],
+      "stage": 3,
+      "references": [
+        "ci"
+      ]
+    },
+    {
+      "id": "auto-evals",
+      "name_ko": "평가 데이터와 회귀 평가",
+      "name_en": "Evaluation Sets and Regression Evaluation",
+      "area": "automation",
+      "summary": "대표 입력과 판정 기준으로 비결정적 출력을 평가한다.",
+      "prerequisites": [
+        "ai-models",
+        "test-integration",
+        "perf-measure"
+      ],
+      "related": [
+        "auto-human"
+      ],
+      "objectives": [
+        "실패 분류와 데이터 누출 및 변동성을 설명한다."
+      ],
+      "applications": [
+        "모델 변경 전후 품질 비교"
+      ],
+      "stage": 3,
+      "references": [
+        "ai"
+      ]
+    },
+    {
+      "id": "auto-human",
+      "name_ko": "사람의 검토와 자동화 경계",
+      "name_en": "Human Review and Automation Boundaries",
+      "area": "automation",
+      "summary": "영향과 불확실성에 맞춰 사람의 판단 지점을 둔다.",
+      "prerequisites": [
+        "auto-contracts",
+        "auto-evals",
+        "ai-safety"
+      ],
+      "related": [],
+      "objectives": [
+        "자동 통과와 수동 검토의 근거를 명시한다."
+      ],
+      "applications": [
+        "AI 코드 배포 승인 기준"
+      ],
+      "stage": 3,
+      "references": [
+        "security"
+      ]
+    },
+    {
+      "id": "comm-requirements",
+      "name_ko": "요구사항과 수용 기준",
+      "name_en": "Requirements and Acceptance Criteria",
+      "area": "communication",
+      "summary": "문제·사용자·제약·완료 조건을 구체적으로 표현한다.",
+      "prerequisites": [],
+      "related": [
+        "comm-decisions"
+      ],
+      "objectives": [
+        "관찰 가능한 수용 기준을 작성한다."
+      ],
+      "applications": [
+        "모호한 기능 요청 구체화"
+      ],
+      "stage": 1,
+      "references": [
+        "requirements"
+      ]
+    },
+    {
+      "id": "comm-decisions",
+      "name_ko": "대안 비교와 결정 기록",
+      "name_en": "Tradeoffs and Decision Records",
+      "area": "communication",
+      "summary": "선택의 맥락·대안·근거·한계를 기록한다.",
+      "prerequisites": [
+        "comm-requirements",
+        "design-cohesion"
+      ],
+      "related": [],
+      "objectives": [
+        "사실과 가정 및 개인 판단을 구별한다."
+      ],
+      "applications": [
+        "설계 결정 사례 작성"
+      ],
+      "stage": 3,
+      "references": [
+        "architecture"
+      ]
+    },
+    {
+      "id": "comm-evidence",
+      "name_ko": "기술 설명과 검증 근거",
+      "name_en": "Technical Communication and Evidence",
+      "area": "communication",
+      "summary": "주장과 관찰 결과를 연결해 변경을 전달한다.",
+      "prerequisites": [
+        "git-commits",
+        "test-unit"
+      ],
+      "related": [],
+      "objectives": [
+        "AI의 제안과 사용자의 판단을 구별한다."
+      ],
+      "applications": [
+        "검증 가능한 PR 설명 작성"
+      ],
+      "stage": 2,
+      "references": [
+        "engineering-review"
+      ]
+    }
+  ]
+}

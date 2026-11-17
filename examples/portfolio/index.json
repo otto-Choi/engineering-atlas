@@ -1,0 +1,13 @@
+[
+  {
+    "id": "demo-boundary",
+    "is_example": true,
+    "title": "예시: 모듈 경계와 회귀 검증 (가상)",
+    "case_ids": [
+      "demo-module-boundary"
+    ],
+    "document": "examples/portfolio/demo-boundary.md",
+    "status": "candidate",
+    "publication_review": null
+  }
+]

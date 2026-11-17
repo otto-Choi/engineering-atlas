@@ -1,0 +1,176 @@
+[
+  {
+    "concept_id": "prog-values",
+    "is_example": true,
+    "verified_level": 1,
+    "estimated_level": null,
+    "last_reviewed": "2026-11-17",
+    "learning_notes": [
+      "예시: 문자열과 숫자의 덧셈 차이를 설명했다는 가정"
+    ],
+    "unverified_notes": [
+      "가상: 다른 맥락에 응용 가능한지는 미확인"
+    ],
+    "needs_learning": [
+      "가상: 실제 제품에서 필요할 때 추가 검증"
+    ],
+    "case_ids": [
+      "demo-module-boundary"
+    ],
+    "evidence": [
+      {
+        "kind": "learner_explanation",
+        "level": 1,
+        "date": "2026-11-17",
+        "summary": "예시: 문자열과 숫자의 덧셈 차이를 설명했다는 가정",
+        "source": "examples/progress/demo-session.md",
+        "case_id": "demo-module-boundary"
+      }
+    ]
+  },
+  {
+    "concept_id": "prog-functions",
+    "is_example": true,
+    "verified_level": 2,
+    "estimated_level": null,
+    "last_reviewed": "2026-11-17",
+    "learning_notes": [
+      "예시: 계산 함수의 인자와 반환 경로를 읽었다는 가정"
+    ],
+    "unverified_notes": [
+      "가상: 다른 맥락에 응용 가능한지는 미확인"
+    ],
+    "needs_learning": [
+      "가상: 실제 제품에서 필요할 때 추가 검증"
+    ],
+    "case_ids": [
+      "demo-module-boundary"
+    ],
+    "evidence": [
+      {
+        "kind": "code_reading",
+        "level": 2,
+        "date": "2026-11-17",
+        "summary": "예시: 계산 함수의 인자와 반환 경로를 읽었다는 가정",
+        "source": "examples/progress/demo-session.md",
+        "case_id": "demo-module-boundary"
+      }
+    ]
+  },
+  {
+    "concept_id": "prog-modules",
+    "is_example": true,
+    "verified_level": 2,
+    "estimated_level": null,
+    "last_reviewed": "2026-11-17",
+    "learning_notes": [
+      "예시: import 경로와 의존 방향을 설명했다는 가정"
+    ],
+    "unverified_notes": [
+      "가상: 다른 맥락에 응용 가능한지는 미확인"
+    ],
+    "needs_learning": [
+      "가상: 실제 제품에서 필요할 때 추가 검증"
+    ],
+    "case_ids": [
+      "demo-module-boundary"
+    ],
+    "evidence": [
+      {
+        "kind": "code_reading",
+        "level": 2,
+        "date": "2026-11-17",
+        "summary": "예시: import 경로와 의존 방향을 설명했다는 가정",
+        "source": "examples/progress/demo-session.md",
+        "case_id": "demo-module-boundary"
+      }
+    ]
+  },
+  {
+    "concept_id": "git-commits",
+    "is_example": true,
+    "verified_level": 1,
+    "estimated_level": null,
+    "last_reviewed": "2026-11-17",
+    "learning_notes": [
+      "예시: staging과 커밋의 차이를 설명했다는 가정"
+    ],
+    "unverified_notes": [
+      "가상: 다른 맥락에 응용 가능한지는 미확인"
+    ],
+    "needs_learning": [
+      "가상: 실제 제품에서 필요할 때 추가 검증"
+    ],
+    "case_ids": [
+      "demo-module-boundary"
+    ],
+    "evidence": [
+      {
+        "kind": "learner_explanation",
+        "level": 1,
+        "date": "2026-11-17",
+        "summary": "예시: staging과 커밋의 차이를 설명했다는 가정",
+        "source": "examples/progress/demo-session.md",
+        "case_id": "demo-module-boundary"
+      }
+    ]
+  },
+  {
+    "concept_id": "test-unit",
+    "is_example": true,
+    "verified_level": 4,
+    "estimated_level": null,
+    "last_reviewed": "2026-11-17",
+    "learning_notes": [
+      "예시: 경계 입력을 검사하고 음수 허용 오류를 고쳤다는 가정"
+    ],
+    "unverified_notes": [
+      "가상: 다른 맥락에 응용 가능한지는 미확인"
+    ],
+    "needs_learning": [
+      "가상: 실제 제품에서 필요할 때 추가 검증"
+    ],
+    "case_ids": [
+      "demo-module-boundary"
+    ],
+    "evidence": [
+      {
+        "kind": "application_validation",
+        "level": 4,
+        "date": "2026-11-17",
+        "summary": "예시: 경계 입력을 검사하고 음수 허용 오류를 고쳤다는 가정",
+        "source": "examples/progress/demo-session.md",
+        "case_id": "demo-module-boundary"
+      }
+    ]
+  },
+  {
+    "concept_id": "design-cohesion",
+    "is_example": true,
+    "verified_level": 3,
+    "estimated_level": null,
+    "last_reviewed": "2026-11-17",
+    "learning_notes": [
+      "예시: 하나의 파일 유지와 계산 분리를 비교했다는 가정"
+    ],
+    "unverified_notes": [
+      "가상: 다른 맥락에 응용 가능한지는 미확인"
+    ],
+    "needs_learning": [
+      "가상: 실제 제품에서 필요할 때 추가 검증"
+    ],
+    "case_ids": [
+      "demo-module-boundary"
+    ],
+    "evidence": [
+      {
+        "kind": "design_decision",
+        "level": 3,
+        "date": "2026-11-17",
+        "summary": "예시: 하나의 파일 유지와 계산 분리를 비교했다는 가정",
+        "source": "examples/progress/demo-session.md",
+        "case_id": "demo-module-boundary"
+      }
+    ]
+  }
+]
