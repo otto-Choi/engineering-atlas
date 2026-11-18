@@ -3,20 +3,29 @@
     "id": "buycycle",
     "is_example": false,
     "name": "Buycycle",
-    "purpose": "ISA 계좌의 ETF 정기 매수를 자동화하는 개인용 프로그램. 현재 제품 요구사항과 실제 주문 연동 방식은 아직 저장소에 상세 정의되지 않음.",
+    "purpose": "한국투자증권 Open API로 ISA 계좌 ETF의 월초 정기 매수를 목표 비중에 맞춰 자동화하고, 수동 추가 매수와 거래 기록을 관리하는 개인용 시스템",
     "repository_url": "https://github.com/otto-Choi/Buycycle",
     "visibility": "public",
     "stack": [
-      "미정"
+      "Python",
+      "FastAPI",
+      "SQLite",
+      "SQLAlchemy",
+      "React",
+      "OS scheduler"
     ],
     "stage": "planning",
     "documentation": [
       {
-        "label": "프로젝트 개요 (현재 초안)",
+        "label": "프로젝트 개요",
         "location": "README.md"
       },
       {
-        "label": "초기 설계 결정",
+        "label": "구현 계획",
+        "location": "docs/plan.md"
+      },
+      {
+        "label": "설계 결정",
         "location": "docs/decisions.md"
       },
       {
