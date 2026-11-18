@@ -1,1 +1,344 @@
-[]
+[
+  {
+    "concept_id": "prog-values",
+    "is_example": false,
+    "verified_level": 0,
+    "estimated_level": null,
+    "last_reviewed": "2026-11-18",
+    "learning_notes": [
+      "Python 변수·자료형 및 금융 금액의 int/Decimal 선택 강의 수강"
+    ],
+    "unverified_notes": [
+      "개념 설명과 예제는 AI가 제공했으며 학습자의 독립적인 이해·적용은 검증되지 않음"
+    ],
+    "needs_learning": [
+      "Buycycle 실제 코드나 학습자 설명을 통한 이해 확인"
+    ],
+    "case_ids": [],
+    "evidence": []
+  },
+  {
+    "concept_id": "prog-control",
+    "is_example": false,
+    "verified_level": 0,
+    "estimated_level": null,
+    "last_reviewed": "2026-11-18",
+    "learning_notes": [
+      "if/for 및 조건·반복 실행 흐름 강의 수강"
+    ],
+    "unverified_notes": [
+      "개념 설명과 예제는 AI가 제공했으며 학습자의 독립적인 이해·적용은 검증되지 않음"
+    ],
+    "needs_learning": [
+      "Buycycle 실제 코드나 학습자 설명을 통한 이해 확인"
+    ],
+    "case_ids": [],
+    "evidence": []
+  },
+  {
+    "concept_id": "prog-collections",
+    "is_example": false,
+    "verified_level": 0,
+    "estimated_level": null,
+    "last_reviewed": "2026-11-18",
+    "learning_notes": [
+      "list와 dict의 용도와 접근 방식 강의 수강"
+    ],
+    "unverified_notes": [
+      "개념 설명과 예제는 AI가 제공했으며 학습자의 독립적인 이해·적용은 검증되지 않음"
+    ],
+    "needs_learning": [
+      "Buycycle 실제 코드나 학습자 설명을 통한 이해 확인"
+    ],
+    "case_ids": [],
+    "evidence": []
+  },
+  {
+    "concept_id": "prog-functions",
+    "is_example": false,
+    "verified_level": 0,
+    "estimated_level": null,
+    "last_reviewed": "2026-11-18",
+    "learning_notes": [
+      "함수의 입력·매개변수·return과 print의 차이 강의 수강"
+    ],
+    "unverified_notes": [
+      "개념 설명과 예제는 AI가 제공했으며 학습자의 독립적인 이해·적용은 검증되지 않음"
+    ],
+    "needs_learning": [
+      "Buycycle 실제 코드나 학습자 설명을 통한 이해 확인"
+    ],
+    "case_ids": [],
+    "evidence": []
+  },
+  {
+    "concept_id": "prog-modules",
+    "is_example": false,
+    "verified_level": 0,
+    "estimated_level": null,
+    "last_reviewed": "2026-11-18",
+    "learning_notes": [
+      "매수 계산·API·알림 모듈의 역할 구분 강의 수강"
+    ],
+    "unverified_notes": [
+      "개념 설명과 예제는 AI가 제공했으며 학습자의 독립적인 이해·적용은 검증되지 않음"
+    ],
+    "needs_learning": [
+      "Buycycle 실제 코드나 학습자 설명을 통한 이해 확인"
+    ],
+    "case_ids": [],
+    "evidence": []
+  },
+  {
+    "concept_id": "paradigm-functional",
+    "is_example": false,
+    "verified_level": 0,
+    "estimated_level": null,
+    "last_reviewed": "2026-11-18",
+    "learning_notes": [
+      "순수 함수와 부수 효과 및 계산/I-O 분리 강의 수강"
+    ],
+    "unverified_notes": [
+      "개념 설명과 예제는 AI가 제공했으며 학습자의 독립적인 이해·적용은 검증되지 않음"
+    ],
+    "needs_learning": [
+      "Buycycle 실제 코드나 학습자 설명을 통한 이해 확인"
+    ],
+    "case_ids": [],
+    "evidence": []
+  },
+  {
+    "concept_id": "test-unit",
+    "is_example": false,
+    "verified_level": 0,
+    "estimated_level": null,
+    "last_reviewed": "2026-11-18",
+    "learning_notes": [
+      "단위 테스트·경계값·불변 조건·속성 기반 테스트 강의 수강"
+    ],
+    "unverified_notes": [
+      "개념 설명과 예제는 AI가 제공했으며 학습자의 독립적인 이해·적용은 검증되지 않음"
+    ],
+    "needs_learning": [
+      "Buycycle 실제 코드나 학습자 설명을 통한 이해 확인"
+    ],
+    "case_ids": [],
+    "evidence": []
+  },
+  {
+    "concept_id": "test-integration",
+    "is_example": false,
+    "verified_level": 0,
+    "estimated_level": null,
+    "last_reviewed": "2026-11-18",
+    "learning_notes": [
+      "통합·종단간·회귀 테스트의 범위 강의 수강"
+    ],
+    "unverified_notes": [
+      "개념 설명과 예제는 AI가 제공했으며 학습자의 독립적인 이해·적용은 검증되지 않음"
+    ],
+    "needs_learning": [
+      "Buycycle 실제 코드나 학습자 설명을 통한 이해 확인"
+    ],
+    "case_ids": [],
+    "evidence": []
+  },
+  {
+    "concept_id": "design-cohesion",
+    "is_example": false,
+    "verified_level": 0,
+    "estimated_level": null,
+    "last_reviewed": "2026-11-18",
+    "learning_notes": [
+      "응집도·결합도와 함께 변경되는 기능의 배치 강의 수강"
+    ],
+    "unverified_notes": [
+      "개념 설명과 예제는 AI가 제공했으며 학습자의 독립적인 이해·적용은 검증되지 않음"
+    ],
+    "needs_learning": [
+      "Buycycle 실제 코드나 학습자 설명을 통한 이해 확인"
+    ],
+    "case_ids": [],
+    "evidence": []
+  },
+  {
+    "concept_id": "design-interfaces",
+    "is_example": false,
+    "verified_level": 0,
+    "estimated_level": null,
+    "last_reviewed": "2026-11-18",
+    "learning_notes": [
+      "추상화·캡슐화·의존성 주입·의존성 역전과 Protocol 강의 수강"
+    ],
+    "unverified_notes": [
+      "개념 설명과 예제는 AI가 제공했으며 학습자의 독립적인 이해·적용은 검증되지 않음"
+    ],
+    "needs_learning": [
+      "Buycycle 실제 코드나 학습자 설명을 통한 이해 확인"
+    ],
+    "case_ids": [],
+    "evidence": []
+  },
+  {
+    "concept_id": "design-refactoring",
+    "is_example": false,
+    "verified_level": 0,
+    "estimated_level": null,
+    "last_reviewed": "2026-11-18",
+    "learning_notes": [
+      "YAGNI·과도한 추상화·변경 비용과 SOLID 강의 수강"
+    ],
+    "unverified_notes": [
+      "개념 설명과 예제는 AI가 제공했으며 학습자의 독립적인 이해·적용은 검증되지 않음"
+    ],
+    "needs_learning": [
+      "Buycycle 실제 코드나 학습자 설명을 통한 이해 확인"
+    ],
+    "case_ids": [],
+    "evidence": []
+  },
+  {
+    "concept_id": "paradigm-objects",
+    "is_example": false,
+    "verified_level": 0,
+    "estimated_level": null,
+    "last_reviewed": "2026-11-18",
+    "learning_notes": [
+      "클래스·메서드·주문 객체 상태 관리 예제 강의 수강"
+    ],
+    "unverified_notes": [
+      "개념 설명과 예제는 AI가 제공했으며 학습자의 독립적인 이해·적용은 검증되지 않음"
+    ],
+    "needs_learning": [
+      "Buycycle 실제 코드나 학습자 설명을 통한 이해 확인"
+    ],
+    "case_ids": [],
+    "evidence": []
+  },
+  {
+    "concept_id": "arch-boundaries",
+    "is_example": false,
+    "verified_level": 0,
+    "estimated_level": null,
+    "last_reviewed": "2026-11-18",
+    "learning_notes": [
+      "계층형·헥사고날·클린 아키텍처 및 경계 설계 강의 수강"
+    ],
+    "unverified_notes": [
+      "개념 설명과 예제는 AI가 제공했으며 학습자의 독립적인 이해·적용은 검증되지 않음"
+    ],
+    "needs_learning": [
+      "Buycycle 실제 코드나 학습자 설명을 통한 이해 확인"
+    ],
+    "case_ids": [],
+    "evidence": []
+  },
+  {
+    "concept_id": "arch-modularity",
+    "is_example": false,
+    "verified_level": 0,
+    "estimated_level": null,
+    "last_reviewed": "2026-11-18",
+    "learning_notes": [
+      "API 서버·작업 프로세스 분리와 공통 비즈니스 로직 강의 수강"
+    ],
+    "unverified_notes": [
+      "개념 설명과 예제는 AI가 제공했으며 학습자의 독립적인 이해·적용은 검증되지 않음"
+    ],
+    "needs_learning": [
+      "Buycycle 실제 코드나 학습자 설명을 통한 이해 확인"
+    ],
+    "case_ids": [],
+    "evidence": []
+  },
+  {
+    "concept_id": "data-relations",
+    "is_example": false,
+    "verified_level": 0,
+    "estimated_level": null,
+    "last_reviewed": "2026-11-18",
+    "learning_notes": [
+      "관계형 테이블·행·열·기본키 및 주문/실행 연결 강의 수강"
+    ],
+    "unverified_notes": [
+      "개념 설명과 예제는 AI가 제공했으며 학습자의 독립적인 이해·적용은 검증되지 않음"
+    ],
+    "needs_learning": [
+      "Buycycle 실제 코드나 학습자 설명을 통한 이해 확인"
+    ],
+    "case_ids": [],
+    "evidence": []
+  },
+  {
+    "concept_id": "data-transactions",
+    "is_example": false,
+    "verified_level": 0,
+    "estimated_level": null,
+    "last_reviewed": "2026-11-18",
+    "learning_notes": [
+      "ACID, 트랜잭션, 유니크 제약의 역할 및 한계 강의 수강"
+    ],
+    "unverified_notes": [
+      "개념 설명과 예제는 AI가 제공했으며 학습자의 독립적인 이해·적용은 검증되지 않음"
+    ],
+    "needs_learning": [
+      "Buycycle 실제 코드나 학습자 설명을 통한 이해 확인"
+    ],
+    "case_ids": [],
+    "evidence": []
+  },
+  {
+    "concept_id": "sec-integrity",
+    "is_example": false,
+    "verified_level": 0,
+    "estimated_level": null,
+    "last_reviewed": "2026-11-18",
+    "learning_notes": [
+      "주문 멱등성 키·중복 주문 방지·실행/체결 기록 구분 강의 수강"
+    ],
+    "unverified_notes": [
+      "개념 설명과 예제는 AI가 제공했으며 학습자의 독립적인 이해·적용은 검증되지 않음"
+    ],
+    "needs_learning": [
+      "Buycycle 실제 코드나 학습자 설명을 통한 이해 확인"
+    ],
+    "case_ids": [],
+    "evidence": []
+  },
+  {
+    "concept_id": "ops-retries",
+    "is_example": false,
+    "verified_level": 0,
+    "estimated_level": null,
+    "last_reviewed": "2026-11-18",
+    "learning_notes": [
+      "주문 응답 유실, 상태 조회, 안전한 재시도와 복구 강의 수강"
+    ],
+    "unverified_notes": [
+      "개념 설명과 예제는 AI가 제공했으며 학습자의 독립적인 이해·적용은 검증되지 않음"
+    ],
+    "needs_learning": [
+      "Buycycle 실제 코드나 학습자 설명을 통한 이해 확인"
+    ],
+    "case_ids": [],
+    "evidence": []
+  },
+  {
+    "concept_id": "auto-harness",
+    "is_example": false,
+    "verified_level": 0,
+    "estimated_level": null,
+    "last_reviewed": "2026-11-18",
+    "learning_notes": [
+      "Claude Hook 강제 수준과 유지 비용, Buycycle Hook 제거 사례 학습"
+    ],
+    "unverified_notes": [
+      "개념 설명과 예제는 AI가 제공했으며 학습자의 독립적인 이해·적용은 검증되지 않음"
+    ],
+    "needs_learning": [
+      "Buycycle 실제 코드나 학습자 설명을 통한 이해 확인"
+    ],
+    "case_ids": [],
+    "evidence": []
+  }
+]
